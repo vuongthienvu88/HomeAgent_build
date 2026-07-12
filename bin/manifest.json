@@ -1,0 +1,7 @@
+{
+  "target": "esp32s3",
+  "version": "0.1.0",
+  "firmware_url": "https://raw.githubusercontent.com/vuongthienvu88/HomeAgent_build/main/bin/homeagent-esp32s3-v0.1.0.bin",
+  "sha256": "",
+  "notes": "Firmware binaries are published from HomeAgent to HomeAgent_build/bin."
+}
