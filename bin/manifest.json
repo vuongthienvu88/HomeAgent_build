@@ -1,7 +1,8 @@
-{
-  "target": "esp32s3",
-  "version": "0.1.1-ota",
-  "firmware_url": "https://raw.githubusercontent.com/vuongthienvu88/HomeAgent_build/main/bin/homeagent-esp32s3-v0.1.1-ota.bin",
-  "sha256": "b64daa3c37527bc04cb49c49653853ca5cb12b0f8e53b8fbbbaf610dbe5b8f6a",
-  "notes": "OTA-capable firmware. Google Sheet command ota_update downloads this build."
+﻿{
+    "version":  "0.1.23-sleep-well-sheet-alias",
+    "target":  "esp32s3",
+    "firmware":  "esp-idf",
+    "file":  "bin/home_agent.bin",
+    "built_at":  "2026-08-10 23:30:46 +07:00",
+    "notes":  "Adds Sleep Well aliases to direct voice and Google Sheet command parser. Sleep Well sends fan off, then LG2 AC off 0x88C0051."
 }
