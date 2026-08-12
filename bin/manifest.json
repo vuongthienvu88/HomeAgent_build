@@ -1,8 +1,11 @@
-﻿{
-    "version":  "0.1.23-sleep-well-sheet-alias",
-    "target":  "esp32s3",
-    "firmware":  "esp-idf",
-    "file":  "bin/home_agent.bin",
-    "built_at":  "2026-08-10 23:30:46 +07:00",
-    "notes":  "Adds Sleep Well aliases to direct voice and Google Sheet command parser. Sleep Well sends fan off, then LG2 AC off 0x88C0051."
+{
+  "version": "0.1.24-sheet-ota",
+  "build_number": 24,
+  "target": "esp32s3",
+  "firmware": "esp-idf",
+  "file": "bin/home_agent.bin",
+  "firmware_url": "https://raw.githubusercontent.com/vuongthienvu88/HomeAgent_build/main/bin/home_agent.bin",
+  "sha256": "4a516c0ebb9700f83bc601de1765c9a7467a1224d4ea30d1267a818c34bcca29",
+  "built_at": "2026-08-12 23:21:57 +07:00",
+  "notes": "Adds Google Sheet Build OTA status/update flow and fan on quay voice aliases. First install still requires USB flash; later updates can be OTA."
 }
