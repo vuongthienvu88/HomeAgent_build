@@ -1,11 +1,11 @@
 {
-  "version": "0.1.24-sheet-ota",
-  "build_number": 24,
+  "version": "0.1.25-welcome-home",
+  "build_number": 25,
   "target": "esp32s3",
   "firmware": "esp-idf",
   "file": "bin/home_agent.bin",
   "firmware_url": "https://raw.githubusercontent.com/vuongthienvu88/HomeAgent_build/main/bin/home_agent.bin",
-  "sha256": "4a516c0ebb9700f83bc601de1765c9a7467a1224d4ea30d1267a818c34bcca29",
-  "built_at": "2026-08-12 23:21:57 +07:00",
-  "notes": "Adds Google Sheet Build OTA status/update flow and fan on quay voice aliases. First install still requires USB flash; later updates can be OTA."
+  "sha256": "b585ecfec928bb94c60e8651018958e3a43e1581014c3f84fb59dd466f54df56",
+  "built_at": "2026-08-13 23:03:11 +07:00",
+  "notes": "Adds welcome home voice/sheet alias mapped to Wake Up combo."
 }
