@@ -1,10 +1,10 @@
 {
-    "version":  "0.1.26-status-build-number",
-    "build_number":  26,
+    "version":  "0.1.27-command-frames",
+    "build_number":  27,
     "target":  "esp32s3",
     "firmware":  "esp-idf",
     "file":  "bin/home_agent.bin",
     "firmware_url":  "https://raw.githubusercontent.com/vuongthienvu88/HomeAgent_build/main/bin/home_agent.bin",
-    "sha256":  "a5150a8a1595afcee5031fc89fa2a464f8c96eefa2e49c9300bea7bba090e92e",
-    "notes":  "Fixes board status build_number reporting; keeps welcome home wake alias."
+    "sha256":  "bcb1126f3cba224efdab03afb93a18d0358659e9a0a4f3cb67a1d97669dc7d95",
+    "notes":  "Adds full voice frame coverage: every command supports command+over and my home/home agent+command."
 }
