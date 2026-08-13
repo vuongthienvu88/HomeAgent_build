@@ -1,11 +1,10 @@
 {
-  "version": "0.1.25-welcome-home",
-  "build_number": 25,
-  "target": "esp32s3",
-  "firmware": "esp-idf",
-  "file": "bin/home_agent.bin",
-  "firmware_url": "https://raw.githubusercontent.com/vuongthienvu88/HomeAgent_build/main/bin/home_agent.bin",
-  "sha256": "b585ecfec928bb94c60e8651018958e3a43e1581014c3f84fb59dd466f54df56",
-  "built_at": "2026-08-13 23:03:11 +07:00",
-  "notes": "Adds welcome home voice/sheet alias mapped to Wake Up combo."
+    "version":  "0.1.26-status-build-number",
+    "build_number":  26,
+    "target":  "esp32s3",
+    "firmware":  "esp-idf",
+    "file":  "bin/home_agent.bin",
+    "firmware_url":  "https://raw.githubusercontent.com/vuongthienvu88/HomeAgent_build/main/bin/home_agent.bin",
+    "sha256":  "a5150a8a1595afcee5031fc89fa2a464f8c96eefa2e49c9300bea7bba090e92e",
+    "notes":  "Fixes board status build_number reporting; keeps welcome home wake alias."
 }
