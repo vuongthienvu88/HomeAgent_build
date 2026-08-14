@@ -1,10 +1,10 @@
 {
-    "version":  "0.1.34-temp-short-aliases",
-    "build_number":  34,
+    "version":  "0.1.35-rf-gdo2-debug",
+    "build_number":  35,
     "target":  "esp32s3",
     "firmware":  "esp-idf",
     "file":  "bin/home_agent.bin",
     "firmware_url":  "https://raw.githubusercontent.com/vuongthienvu88/HomeAgent_build/main/bin/home_agent.bin",
-    "sha256":  "c93df62dfdec93709e7c4635b4a7af470100db228c8d9f423998cb9fe5cd0ba6",
-    "notes":  "Adds short AC temperature voice/sheet aliases: t, tea, tee up/down with repeated up/down for 2-3 degree changes; keeps RF learn-window support."
+    "sha256":  "bfddac40fc86558c047bf23166a73bc88e421e44d4b4004d917500dd6878d530",
+    "notes":  "Adds RF debug endpoint and GDO2 learn endpoint for CC1101 troubleshooting."
 }
