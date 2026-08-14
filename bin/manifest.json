@@ -1,10 +1,10 @@
 {
-    "version":  "0.1.27-command-frames",
-    "build_number":  27,
+    "version":  "0.1.28-rf-cc1101-rx",
+    "build_number":  28,
     "target":  "esp32s3",
     "firmware":  "esp-idf",
     "file":  "bin/home_agent.bin",
     "firmware_url":  "https://raw.githubusercontent.com/vuongthienvu88/HomeAgent_build/main/bin/home_agent.bin",
-    "sha256":  "bcb1126f3cba224efdab03afb93a18d0358659e9a0a4f3cb67a1d97669dc7d95",
-    "notes":  "Adds full voice frame coverage: every command supports command+over and my home/home agent+command."
+    "sha256":  "78d9cd8ba0a5d5687b2c7888c8561a4741b8aa73dae5d708f09b44de1d823ec0",
+    "notes":  "Adds CC1101 433MHz OOK RF receiver wiring and /rf/last capture endpoint."
 }
