@@ -1,10 +1,10 @@
 {
-    "version":  "0.1.35-rf-gdo2-debug",
-    "build_number":  35,
+    "version":  "0.1.36-rf-debug-route-fix",
+    "build_number":  36,
     "target":  "esp32s3",
     "firmware":  "esp-idf",
     "file":  "bin/home_agent.bin",
     "firmware_url":  "https://raw.githubusercontent.com/vuongthienvu88/HomeAgent_build/main/bin/home_agent.bin",
-    "sha256":  "bfddac40fc86558c047bf23166a73bc88e421e44d4b4004d917500dd6878d530",
-    "notes":  "Adds RF debug endpoint and GDO2 learn endpoint for CC1101 troubleshooting."
+    "sha256":  "c3f082cad7b9327e0ba6021d8bd72b9f0996dc97894e6891828492c213af2d52",
+    "notes":  "Fixes HTTP route capacity for RF debug/GDO2 endpoints."
 }
