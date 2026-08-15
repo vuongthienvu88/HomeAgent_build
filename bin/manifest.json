@@ -1,10 +1,10 @@
 {
-    "version":  "0.1.36-rf-debug-route-fix",
-    "build_number":  36,
+    "version":  "0.1.37-ir-only-3v3",
+    "build_number":  37,
     "target":  "esp32s3",
     "firmware":  "esp-idf",
     "file":  "bin/home_agent.bin",
     "firmware_url":  "https://raw.githubusercontent.com/vuongthienvu88/HomeAgent_build/main/bin/home_agent.bin",
-    "sha256":  "c3f082cad7b9327e0ba6021d8bd72b9f0996dc97894e6891828492c213af2d52",
-    "notes":  "Fixes HTTP route capacity for RF debug/GDO2 endpoints."
+    "sha256":  "13bc59576961e2c5e431f7337ec1ca8683808ef38672d3a3e06a5f933b8ee2e6",
+    "notes":  "Disables CC1101 RF init/routes and returns to IR-only operation. Use 4-LED IR transmitter VCC on ESP32 3V3, DAT on GPIO6, common GND."
 }
