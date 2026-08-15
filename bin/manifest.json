@@ -1,10 +1,10 @@
 {
-    "version":  "0.1.39-safe-voice-ir3v3",
-    "build_number":  39,
+    "version":  "0.1.44-light-ir-actions",
+    "build_number":  44,
     "target":  "esp32s3",
     "firmware":  "esp-idf",
     "file":  "bin/home_agent.bin",
     "firmware_url":  "https://raw.githubusercontent.com/vuongthienvu88/HomeAgent_build/main/bin/home_agent.bin",
-    "sha256":  "489ba2434f5675fbb88fcf1e17015fd66ed2a95033598aba324ec71dac8d6d6b",
-    "notes":  "IR-only firmware. RF/CC1101 is removed from the build. 4-LED IR transmitter uses ESP32 3V3, GPIO6 data, common GND. Voice phrase registration skips rejected aliases instead of crashing."
+    "sha256":  "6feba9f2bf8f72088d1abd0948223355432516a4eb8b6d0a6b35be13656a3187",
+    "notes":  "Adds LED puck light IR actions: light on/off/bright/timer. Wake up now sends light on + fan on swing + AC on. Sleep well now sends light off + fan off + AC off. IR 4LED remains on ESP32 3V3 GPIO6."
 }
