@@ -1,10 +1,10 @@
 {
-    "version":  "0.1.37-ir-only-3v3",
-    "build_number":  37,
+    "version":  "0.1.39-safe-voice-ir3v3",
+    "build_number":  39,
     "target":  "esp32s3",
     "firmware":  "esp-idf",
     "file":  "bin/home_agent.bin",
     "firmware_url":  "https://raw.githubusercontent.com/vuongthienvu88/HomeAgent_build/main/bin/home_agent.bin",
-    "sha256":  "13bc59576961e2c5e431f7337ec1ca8683808ef38672d3a3e06a5f933b8ee2e6",
-    "notes":  "Disables CC1101 RF init/routes and returns to IR-only operation. Use 4-LED IR transmitter VCC on ESP32 3V3, DAT on GPIO6, common GND."
+    "sha256":  "489ba2434f5675fbb88fcf1e17015fd66ed2a95033598aba324ec71dac8d6d6b",
+    "notes":  "IR-only firmware. RF/CC1101 is removed from the build. 4-LED IR transmitter uses ESP32 3V3, GPIO6 data, common GND. Voice phrase registration skips rejected aliases instead of crashing."
 }
