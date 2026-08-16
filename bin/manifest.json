@@ -1,10 +1,10 @@
 {
-    "version":  "0.1.45-http-handler-capacity",
-    "build_number":  45,
+    "version":  "0.1.46-light-multi-repeat",
+    "build_number":  46,
     "target":  "esp32s3",
     "firmware":  "esp-idf",
     "file":  "bin/home_agent.bin",
     "firmware_url":  "https://raw.githubusercontent.com/vuongthienvu88/HomeAgent_build/main/bin/home_agent.bin",
-    "sha256":  "55feef946cb0d7ae25d0eeb1658d9067bfd29a55a5861c2d6f30e29d040ed201",
-    "notes":  "Fixes HTTP handler capacity crash after adding light endpoints. Includes LED puck light IR actions and wake/sleep light combo updates."
+    "sha256":  "864e1225ac9f3a141dab8d7b0014b586c3c886e0dbdfe79b7b7fe25e60ad610d",
+    "notes":  "Increases LED puck light IR repeats from 2 to 8 so multiple lights have a better chance to receive light on/off/bright/timer commands."
 }
