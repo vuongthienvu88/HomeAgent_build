@@ -1,10 +1,10 @@
 {
-    "version":  "0.1.44-light-ir-actions",
-    "build_number":  44,
+    "version":  "0.1.45-http-handler-capacity",
+    "build_number":  45,
     "target":  "esp32s3",
     "firmware":  "esp-idf",
     "file":  "bin/home_agent.bin",
     "firmware_url":  "https://raw.githubusercontent.com/vuongthienvu88/HomeAgent_build/main/bin/home_agent.bin",
-    "sha256":  "4450e510595b0c1ef72905881411d352bcd6bbe1d17ec2418de0b1622b49dd36",
-    "notes":  "Adds LED puck light IR actions: light on/off/bright/timer. Wake up sends light on + fan on swing + AC on. Sleep well sends light off + fan off + AC off. IR 4LED remains on ESP32 3V3 GPIO6; mic should use 3V3."
+    "sha256":  "55feef946cb0d7ae25d0eeb1658d9067bfd29a55a5861c2d6f30e29d040ed201",
+    "notes":  "Fixes HTTP handler capacity crash after adding light endpoints. Includes LED puck light IR actions and wake/sleep light combo updates."
 }
