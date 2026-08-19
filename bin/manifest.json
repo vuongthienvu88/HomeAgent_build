@@ -1,10 +1,10 @@
-{
-    "version":  "0.1.46-light-multi-repeat",
-    "build_number":  46,
+﻿{
+    "version":  "0.1.47-welcome-no-light",
+    "build_number":  47,
     "target":  "esp32s3",
     "firmware":  "esp-idf",
     "file":  "bin/home_agent.bin",
     "firmware_url":  "https://raw.githubusercontent.com/vuongthienvu88/HomeAgent_build/main/bin/home_agent.bin",
-    "sha256":  "864e1225ac9f3a141dab8d7b0014b586c3c886e0dbdfe79b7b7fe25e60ad610d",
-    "notes":  "Increases LED puck light IR repeats from 2 to 8 so multiple lights have a better chance to receive light on/off/bright/timer commands."
+    "sha256":  "1491937ad2203ee5874ba0a7b5010a70b9126f5563b6e9925960881d79ae6413",
+    "notes":  "Adds welcome voice/sheet/web command that runs fan_on_swing + ac_on without turning on lights. welcome home/wake up behavior is unchanged and still turns on lights."
 }
