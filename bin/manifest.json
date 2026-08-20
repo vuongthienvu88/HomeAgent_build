@@ -5,6 +5,6 @@
     "firmware":  "esp-idf",
     "file":  "bin/home_agent.bin",
     "firmware_url":  "https://raw.githubusercontent.com/vuongthienvu88/HomeAgent_build/main/bin/home_agent.bin",
-    "sha256":  "1491937ad2203ee5874ba0a7b5010a70b9126f5563b6e9925960881d79ae6413",
+    "sha256":  "6d78f9cf7a1d62195cb64897f9c0a71adf22df5dce529cd935b5c0108fada152",
     "notes":  "Adds welcome voice/sheet/web command that runs fan_on_swing + ac_on without turning on lights. welcome home/wake up behavior is unchanged and still turns on lights."
 }
