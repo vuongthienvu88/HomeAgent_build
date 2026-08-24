@@ -1,10 +1,10 @@
 ﻿{
-    "version":  "0.1.47-welcome-no-light",
-    "build_number":  47,
+    "version":  "0.1.48-ac-off-dual-code",
+    "build_number":  48,
     "target":  "esp32s3",
     "firmware":  "esp-idf",
     "file":  "bin/home_agent.bin",
     "firmware_url":  "https://raw.githubusercontent.com/vuongthienvu88/HomeAgent_build/main/bin/home_agent.bin",
-    "sha256":  "6d78f9cf7a1d62195cb64897f9c0a71adf22df5dce529cd935b5c0108fada152",
-    "notes":  "Adds welcome voice/sheet/web command that runs fan_on_swing + ac_on without turning on lights. welcome home/wake up behavior is unchanged and still turns on lights."
+    "sha256":  "bdd2129f0e172b88418e7e964f8af7acbe9032dd1cf774b4e0912b1374d43cd2",
+    "notes":  "AC off now sends learned raw LG OFF first, then LG2 off code fallback. Sleep well uses the same dual AC off path."
 }
