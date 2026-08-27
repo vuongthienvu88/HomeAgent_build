@@ -1,10 +1,10 @@
 ﻿{
-    "version":  "0.1.48-ac-off-dual-code",
-    "build_number":  48,
+    "version":  "0.1.49-boss-fan-voice-stubs",
+    "build_number":  49,
     "target":  "esp32s3",
     "firmware":  "esp-idf",
     "file":  "bin/home_agent.bin",
     "firmware_url":  "https://raw.githubusercontent.com/vuongthienvu88/HomeAgent_build/main/bin/home_agent.bin",
-    "sha256":  "bdd2129f0e172b88418e7e964f8af7acbe9032dd1cf774b4e0912b1374d43cd2",
-    "notes":  "AC off now sends learned raw LG OFF first, then LG2 off code fallback. Sleep well uses the same dual AC off path."
+    "sha256":  "20de234cf8ca7be07260ce9bec729cd7d272c58dcd3cf1c27be65722a9a18734",
+    "notes":  "Adds Boss fan voice/sheet/web command stubs for fany on/off/speed/swing. Boss fan IR raw codes still need to be learned before transmitting real Boss fan signals."
 }
