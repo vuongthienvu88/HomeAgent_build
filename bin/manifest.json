@@ -1,10 +1,10 @@
 ﻿{
-    "version":  "0.1.49-boss-fan-voice-stubs",
-    "build_number":  49,
+    "version":  "0.1.50-boss-fan-ir",
+    "build_number":  50,
     "target":  "esp32s3",
     "firmware":  "esp-idf",
     "file":  "bin/home_agent.bin",
     "firmware_url":  "https://raw.githubusercontent.com/vuongthienvu88/HomeAgent_build/main/bin/home_agent.bin",
-    "sha256":  "20de234cf8ca7be07260ce9bec729cd7d272c58dcd3cf1c27be65722a9a18734",
-    "notes":  "Adds Boss fan voice/sheet/web command stubs for fany on/off/speed/swing. Boss fan IR raw codes still need to be learned before transmitting real Boss fan signals."
+    "sha256":  "80c91cfd6e3234be4b124dfe2679a4e29e8b741874ede2d53d01ea5b645e3a71",
+    "notes":  "Adds learned Boss fan IR raw codes. fany on/off send Boss POWER toggle; fany speed and fany swing send learned Boss codes."
 }
