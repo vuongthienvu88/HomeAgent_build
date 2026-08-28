@@ -1,10 +1,10 @@
 ﻿{
-    "version":  "0.1.50-boss-fan-ir",
-    "build_number":  50,
+    "version":  "0.1.51-lg-ac-stateful-temp",
+    "build_number":  51,
     "target":  "esp32s3",
     "firmware":  "esp-idf",
     "file":  "bin/home_agent.bin",
     "firmware_url":  "https://raw.githubusercontent.com/vuongthienvu88/HomeAgent_build/main/bin/home_agent.bin",
-    "sha256":  "80c91cfd6e3234be4b124dfe2679a4e29e8b741874ede2d53d01ea5b645e3a71",
-    "notes":  "Adds learned Boss fan IR raw codes. fany on/off send Boss POWER toggle; fany speed and fany swing send learned Boss codes."
+    "sha256":  "e569793c46f45fa4dcf5a4985c66fb339ff57b402ba1ec189cf99ea96ffa631e",
+    "notes":  "Generates LG AC set-temperature codes from 16C to 30C using decoded LG2 checksum; keeps AC off as LG2 0x88C0051. Adds Boss fan tab in FE."
 }
