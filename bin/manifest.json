@@ -1,10 +1,10 @@
 {
-    "version":  "0.1.52-ac-set-temp-voice",
-    "build_number":  52,
+    "version":  "0.1.53-ac-number-temp",
+    "build_number":  53,
     "target":  "esp32s3",
     "firmware":  "esp-idf",
     "file":  "bin/home_agent.bin",
     "firmware_url":  "https://raw.githubusercontent.com/vuongthienvu88/HomeAgent_build/main/bin/home_agent.bin",
-    "sha256":  "044d29fed9115da9d903d4e97a7792814c1aca72042e739d7b2e49be3ed15631",
-    "notes":  "Adds direct LG AC set-temperature commands from 16C to 29C for voice, Sheet, FE config, and local parser. FE +/- now sends t \u003ctarget temperature\u003e from the virtual remote state."
+    "sha256":  "3376efad7e324a22c97df1bca896d2e73942b1f8253cd30c9beca08568bbc166",
+    "notes":  "Adds number-only LG AC set-temperature commands from 16C to 29C. Examples: sixteen over, twenty five over, 25 over. FE +/- sends the target number directly."
 }
