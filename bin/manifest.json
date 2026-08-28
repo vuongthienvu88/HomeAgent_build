@@ -1,10 +1,10 @@
-﻿{
-    "version":  "0.1.51-lg-ac-stateful-temp",
-    "build_number":  51,
+{
+    "version":  "0.1.52-ac-set-temp-voice",
+    "build_number":  52,
     "target":  "esp32s3",
     "firmware":  "esp-idf",
     "file":  "bin/home_agent.bin",
     "firmware_url":  "https://raw.githubusercontent.com/vuongthienvu88/HomeAgent_build/main/bin/home_agent.bin",
-    "sha256":  "e569793c46f45fa4dcf5a4985c66fb339ff57b402ba1ec189cf99ea96ffa631e",
-    "notes":  "Generates LG AC set-temperature codes from 16C to 30C using decoded LG2 checksum; keeps AC off as LG2 0x88C0051. Adds Boss fan tab in FE."
+    "sha256":  "044d29fed9115da9d903d4e97a7792814c1aca72042e739d7b2e49be3ed15631",
+    "notes":  "Adds direct LG AC set-temperature commands from 16C to 29C for voice, Sheet, FE config, and local parser. FE +/- now sends t \u003ctarget temperature\u003e from the virtual remote state."
 }
