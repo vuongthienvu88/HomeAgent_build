@@ -1,10 +1,10 @@
 {
-    "version":  "0.1.53-ac-number-temp",
-    "build_number":  53,
+    "version":  "0.1.54-ota-12h",
+    "build_number":  54,
     "target":  "esp32s3",
     "firmware":  "esp-idf",
     "file":  "bin/home_agent.bin",
     "firmware_url":  "https://raw.githubusercontent.com/vuongthienvu88/HomeAgent_build/main/bin/home_agent.bin",
-    "sha256":  "3376efad7e324a22c97df1bca896d2e73942b1f8253cd30c9beca08568bbc166",
-    "notes":  "Adds number-only LG AC set-temperature commands from 16C to 29C. Examples: sixteen over, twenty five over, 25 over. FE +/- sends the target number directly."
+    "sha256":  "b0a4a9aa60eaeab5befc0e5c24c59360976348eb4a3e96c95d7c3d5c6673ff99",
+    "notes":  "Checks OTA once after startup, then every 12 hours including failed checks. Includes current IR self-check/retry, LG AC off waveform, and voice-priority Sheet sync changes."
 }
