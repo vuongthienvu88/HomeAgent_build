@@ -1,10 +1,10 @@
 {
-    "version":  "0.1.54-ota-12h",
-    "build_number":  54,
+    "version":  "0.1.55-ac-default-28",
+    "build_number":  55,
     "target":  "esp32s3",
     "firmware":  "esp-idf",
     "file":  "bin/home_agent.bin",
     "firmware_url":  "https://raw.githubusercontent.com/vuongthienvu88/HomeAgent_build/main/bin/home_agent.bin",
-    "sha256":  "b0a4a9aa60eaeab5befc0e5c24c59360976348eb4a3e96c95d7c3d5c6673ff99",
-    "notes":  "Checks OTA once after startup, then every 12 hours including failed checks. Includes current IR self-check/retry, LG AC off waveform, and voice-priority Sheet sync changes."
+    "sha256":  "f2352d23e6439048a34cf76eec4157d9e4073ff163b6eefe0fc0e9fa31718b71",
+    "notes":  "AC on, Welcome and Wake up set 28C and synchronize stored target. Adds A.C up over and A.C down over for 1C steps. Retains 12-hour OTA polling."
 }
