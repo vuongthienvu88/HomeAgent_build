@@ -1,10 +1,10 @@
 {
-    "version":  "0.1.55-ac-default-28",
-    "build_number":  55,
+    "version":  "0.1.56-sheet-5min",
+    "build_number":  56,
     "target":  "esp32s3",
     "firmware":  "esp-idf",
     "file":  "bin/home_agent.bin",
     "firmware_url":  "https://raw.githubusercontent.com/vuongthienvu88/HomeAgent_build/main/bin/home_agent.bin",
-    "sha256":  "f2352d23e6439048a34cf76eec4157d9e4073ff163b6eefe0fc0e9fa31718b71",
-    "notes":  "AC on, Welcome and Wake up set 28C and synchronize stored target. Adds A.C up over and A.C down over for 1C steps. Retains 12-hour OTA polling."
+    "sha256":  "bddbbbbf669ff6c37d31f90b779b82760d4a741a2a04da9b9b60734942ebc26e",
+    "notes":  "Poll Google Sheet commands and config every 5 minutes. Command expiry is 6 minutes to cover polling and request delays. OTA remains every 12 hours."
 }
